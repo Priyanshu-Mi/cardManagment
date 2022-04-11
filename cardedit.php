@@ -10,7 +10,7 @@
         $id = $_GET['cardId'];
     }
 
-    $card = new carddetail();
+    $card = new CardDetail();
     if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['submit'])) {
         $updateCardDetails = $card->cardUpdate($_POST, $id);
     }

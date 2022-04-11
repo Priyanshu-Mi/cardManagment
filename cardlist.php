@@ -4,7 +4,7 @@
 	include('classes/card.php');
 
 
-	$card = new carddetail();
+	$card = new CardDetail();
 
 	if (isset($_GET['delCard'])) {
 		$id = $_GET['delCard'];

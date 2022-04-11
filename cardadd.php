@@ -3,7 +3,7 @@
     include 'inc/header.php';
     include 'inc/sidebar.php';
 
-    $card = new carddetail();
+    $card = new CardDetail();
     if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['submit'])) {
         $insertCard = $card->cardInsert($_POST);
     }
