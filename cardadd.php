@@ -7,7 +7,6 @@
     if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['submit'])) {
         $insertCard = $card->cardInsert($_POST);
     }
-     
 ?>
         <div class="grid_10">
             <div class="box round first grid">
